@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url("./background/guilter.jpg"); 
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    padding: 30px 0;
+}
+.headerdept{
+    margin: 0 50px 0 70px;
+}
+.logoHeader{
+    text-align: left;
+    cursor: pointer;
+    margin: 0 0 0 35px;
+}
+.logoIcon{
+    text-align: right;
+    font-size: 20px;
+    margin: -25px 50px 0 0;
+    cursor: pointer;
+} 
+.headerElement{
+    margin: 180px 0 200px 0;
+}
+.headerElement > p {
+    margin: 0 0 0 0;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+}
+li{
+    display: inline;
+    padding: 0px 15px;
+}
+.btn{
+    float: right;
+    margin: -24px 20px 0 0;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}

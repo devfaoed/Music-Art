@@ -1,0 +1,27 @@
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bodyCard{
+    margin: 16px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #aaa;
+    border-radius: 10px;
+    height: auto;
+}
+.bodyImage{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bodyHead{
+    text-align: left;
+    font-size: 16px;
+    padding: 0 0 0 20px;
+}
+.bodyDesc{
+    padding: 12px 20px 15px 20px;
+    text-align: left;
+}
